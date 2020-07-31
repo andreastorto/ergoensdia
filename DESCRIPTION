@@ -1,0 +1,19 @@
+Package: ergoensdia
+Title: Ensemble reliability diagnostics
+Version: 0.1
+Authors@R: c(person(given = "Andrea",
+           family = "Storto",
+           role = c("aut", "cre"),
+           email = "andrea.storto@gmail.com"))
+Description: Ensemble diagnostics (e.g. rank histogram and 
+    ensemble reliability budget) for the assessment of the 
+    reliability of ensemble forecasts.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: ncdf4
+Imports: signal
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
